@@ -1,106 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title> </title>
+  <title>The Tiger Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-
-  <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
-    <nav class="f6 fw6 ttu tracked">
-      <a class="link dim white dib mr3" href="process.html" title="Process">Process</a>
-      <a class="link dim white dib mr3" href="sources.html" title="Sources">Sources</a>
-    </nav>
-  </header>
+  <script type="text/javascript" src="script.js">
+	</script>
+  <link rel="stylesheet" href="style.css">
 
   
-  <! –– The body starts  ––>
-  <body class="sans-serif">
-  <article> 
-    <article class="helvetica pb5">
-      <header class="vh-100 bg-light-pink dt w-100">
+  <style>
+    .grid{
+        display: grid;
+        grid-gap: 2rem
+    }
 
-  <! –– Ask Sudev how to resize the cat background  ––>
-        <div style="background:url(https://cms.bbcearth.com/sites/default/files/2021-07/Siberian%20tiger%20in%20the%20snow_GettyImages-1287040214.jpg) no-repeat center right;background-size: cover;" 
-          class="dtc v-mid cover ph3 ph4-m ph5-l">
-          <h1 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
-            <span class="bg-black-90 lh-copy white pa1 tracked-tight">
-              A Game of Cat and Mouse
-            </span>
-          <h2 class="f4 fw6 black">A Data Story by Preeti Shibu</h2>
+    .grid-5 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .item-2{
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+
+  </style>
+
+
+  <body style="background-color:linen" class="sans-serif">
+    <header class="bg-black-80 fixed w-100 fw6 ph3 pv3 pv4-ns ph4-m ph5-l">
+      <nav class="f6 fw6 ttu tracked">
+        <a class="link dim white dib hover-light-red mr3" href="process.html" title="Process">Process</a>
+        <a class="link dim white dib hover-light-red mr3" href="sources.html" title="Sources">Sources</a>
+      </nav>
+    </header>
+
+      <section>
+        <div class="vh-100 dt w-100 tc bg-dark-gray white cover" style="background:url(https://i.ibb.co/sgq7HG4/tiger-2.jpg) no-repeat center;">
+            <div class="dtc v-btm">
+              <header class="white-80 sans-serif">
+
+                <h1 class="athelas light-red fw2 f-headline lh-solid white-75 mb0 dib tracked-tight hover-light-silver">A Game of Cat and Mouse</h1>
+                <h3 class ="white-70 lh-copy fw3 ttu tracked pb4">Mapping the disappearance of wild tigers since the 20th Century  </h3>
+
+              </header>
+            </div>  
         </div>
-      </header>
-      <div class="serif ph3 ph4-m ph5-l">
-        <p class="lh-copy f5 f3-m f1-l measure center pv4">
-          Just a little over a century ago, a hundred thousand wild tigers roamed over all of Asia - spanning regions of Turkey in the West to the Russian taiga in the East and much of central Asia, from the foothills of the Himalayas down to the Malay peninsula in the South.  </p>
-        <div class="f5 f3-m lh-copy">
-          <div class="cf dt-l w-100 bt b--black-10 pv4">
-            <div class="dtc-l v-mid mw6 pr3-l">
-              <img class="w-100" src="http://mrmrs.github.io/photos/009.jpg" alt=""/>
-            </div>
-            <div class="dtc-l v-mid f6 f5-m f4-l measure-l">
-              <p class="measure pv4-l center">
-                <span class="fw9 fw4-ns">
-                  Before it burned to the ground, the structure</span> filled a small beach
-                inlet below the Cliff House, also owned by Adolph Sutro at the time.
-                Shortly after closing, a fire in 1966 destroyed the building
-                while it was in the process of being demolished. All that remains
-                of the site are concrete walls, blocked off stairs and
-                passageways, and a tunnel with a deep crevice in the middle. The
-                cause of the fire was arson. Shortly afterwards, the developer
-                left San Francisco and claimed insurance money.
-              </p>
-            </div>
-          </div>
-          <div class="cf dn">
-            <div class="fl w-100 w-50-l">
-              <p class="f5 pv4">
-                During high tides, water would flow directly into the pools from the
-                nearby ocean, recycling the <span class="db f4 f3-m f1-l fw6 measure lh-title">two million US gallons of water in about an hour. </span>
-              </p>
-            </div>
-            <div class="fl w-100 w-50-l">
-              <p class="f5">
-                During low tides, a powerful turbine water pump,
-                built inside a cave at sea level, could be switched on from a control
-                room and could fill the tanks at a rate of 6,000 US gallons a minute,
-                recycling all the water in five hours.
-              </p>
-            </div>
-          </div>
+      </section>
 
-<! –– The Gallery of images starts  ––>
-          <div class="cf">
-            <div class="fl w-100 w-50-l pr2-l pb3">
-              <img class="db w-100" src="http://mrmrs.github.io/photos/010.jpg" alt="Photo of a dusk skyline above a grassy rockface covered in trees.">
-            </div>
-            <div class="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
-              <img class="db w-100" src="http://mrmrs.github.io/photos/011.jpg" alt="Photo of the sea and sky on the horizon with the foundations of a demolished house.">
-            </div>
-            <div class="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
-              <img class="db w-100" src="http://mrmrs.github.io/photos/012.jpg" alt="Photo of the sea with mist covering the rocky formations near the shore.">
-            </div>
-            <div class="fl w-100 w-50-l pl2-l">
-              <img class="db w-100" src="http://mrmrs.github.io/photos/013.jpg" alt="Photo of the foundations of a building on a cliff overlooking a lighthouse.">
-            </div>
-          </div>
+    <article>
+      <section>
+        <div class="athelas mw9 center pa4 pb2 pt4-ns ph7-l">
+          <p class="lh-copy f2 f3-m f1-l measure center pal pv3 lh-title mv0">
+            From a hundred thousand wild tigers at the start of the 20th century to the few thousands left in the wild today &mdash; what are the factors that have led to this devastating drop?</p>
+            <h5 class="sans-serif f6 ttu tracked black-80 pb3-ns">By Preeti Shibu</h5>
+
+      </section>
+
+      <hr class="dotted ph5 mh5 mw9">
+
+      <section>
+        <div class="athelas mw9 center pa4 pt3-ns ph7-l">
+          <p class="f4 lh-copy f3-m f1-l">
+            Just a little over a century ago, a hundred thousand wild tigers roamed over much of Asia - from Turkey in the West to the Russian <i>taiga</i> in the East, from the foothills of the Himalayas and down to the Malay peninsula in the South. </p>
+          <p class="f4 lh-copy f3-m f1-l">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, veritatis. Ad ab adipisci omnis atque qui a similique! Aliquam corrupti voluptatibus error ipsa culpa, consequatur inventore debitis provident non hic?
         </div>
-      </div>
 
-<! –– The blockquote starts  ––>
-    <div class="pa4">
-      <blockquote class="athelas ml0 mt0 pl4 black-90 bl bw1 b--black">
-        <p class="f6 f4-m f3-l lh-copy measure mt0">
-          Discipline in typography is a prime virtue. Individuality
-          must be secured by means that are rational. Distinction
-          needs to be won by simplicity and restraint. It is equally
-          true that these qualities need to be infused wiht a
-          certain spirit and vitality, or they degenerate into
-          dullness and mediocrity.
-        </p>
-        <cite class="f6 ttu tracked fs-normal">―Stanley Morison</cite>
-      </blockquote>
-    </div>
-    
-  </article> 
+        <div class="flourish-embed flourish-photo-slider mw9 center pa4 pt3-ns ph7-l" data-src="visualisation/8031762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      </section>
+
+
+    </article>
   </body>
 </html>
-
